@@ -487,7 +487,7 @@ class Measurement(object):
 
         if 'wavelength_cal' in self.cfg.masks:
             # load data
-            wave_cal = WaveCalSolution(self.cfg.wavecal_file)
+            wave_cal = WaveCalSolution(self.cfg.solution_name)
             wavecal_mask = np.zeros(dark_stack[0].shape, dtype=int)
             for pixel, _ in np.ndenumerate(dark_stack[0]):
                 # mask data if energy - phase fit failed
