@@ -1,0 +1,734 @@
+﻿Version     0.0
+Platform    uLCD-43PT-L
+PlatRes     272x480
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     1
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 Yes
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      'MEC HEMT Power Supply '
+    Color                        BLACK
+    Font.Color                   clMoneyGreen
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       20
+    Left                         124
+    Top                          8
+    Transparent                  Yes
+    Width                        208
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      'Vd (mV)     Id (mA)      Vg (mV)              Vd (mV)     Id (mA)       Vg (mV)'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    10
+    Font.Style                   [Bold]
+    Height                       16
+    Left                         12
+    Top                          40
+    Transparent                  Yes
+    Width                        460
+    WordWrap                     Yes
+end
+CustomDigits
+    Name                         Customdigits0
+    Alias                        Customdigits0
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         30
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits1
+    Alias                        Customdigits1
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         92
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits2
+    Alias                        Customdigits2
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         155
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits3
+    Alias                        Customdigits3
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         30
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits4
+    Alias                        Customdigits4
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         92
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits5
+    Alias                        Customdigits5
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         155
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits6
+    Alias                        Customdigits6
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         30
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits7
+    Alias                        Customdigits7
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         92
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits8
+    Alias                        Customdigits8
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         155
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits9
+    Alias                        Customdigits9
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         30
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits10
+    Alias                        Customdigits10
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         92
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits11
+    Alias                        Customdigits11
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         155
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits12
+    Alias                        Customdigits12
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         30
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits13
+    Alias                        Customdigits13
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         92
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits14
+    Alias                        Customdigits14
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         155
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Line
+    Name                         Line0
+    Alias                        Line0
+    Color                        WHITE
+    Pattern                      Solid
+    X1                           0
+    X2                           480
+    Y1                           30
+    Y2                           30
+end
+CustomDigits
+    Name                         Customdigits15
+    Alias                        Customdigits15
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         280
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits16
+    Alias                        Customdigits16
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         350
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits17
+    Alias                        Customdigits17
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         420
+    Top                          75
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits18
+    Alias                        Customdigits18
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         280
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits19
+    Alias                        Customdigits19
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         350
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits20
+    Alias                        Customdigits20
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         420
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits21
+    Alias                        Customdigits21
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         280
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits22
+    Alias                        Customdigits22
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         350
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits23
+    Alias                        Customdigits23
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         420
+    Top                          155
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits24
+    Alias                        Customdigits24
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         280
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits25
+    Alias                        Customdigits25
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         350
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits26
+    Alias                        Customdigits26
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         420
+    Top                          195
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits27
+    Alias                        Customdigits27
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         280
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits28
+    Alias                        Customdigits28
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  No
+    Left                         350
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits29
+    Alias                        Customdigits29
+    Bitmap                       (None)
+    Digits                       5
+    LeadingZero                  No
+    Left                         420
+    Top                          235
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      A1
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         2
+    Top                          72
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      A2
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         2
+    Top                          112
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      A3
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         2
+    Top                          152
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      A4
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         2
+    Top                          192
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      A5
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         2
+    Top                          232
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      B1
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         250
+    Top                          72
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      B2
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         250
+    Top                          112
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext9
+    Alias                        Statictext9
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      B3
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         250
+    Top                          152
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext10
+    Alias                        Statictext10
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      B4
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         250
+    Top                          192
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext11
+    Alias                        Statictext11
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      B5
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         250
+    Top                          232
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext12
+    Alias                        Statictext12
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      xx.xx
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         96
+    Top                          58
+    Transparent                  Yes
+    Width                        28
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext13
+    Alias                        Statictext13
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      xx.xx
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         354
+    Top                          58
+    Transparent                  Yes
+    Width                        28
+    WordWrap                     Yes
+end
+UserLed
+    Name                         Userled0
+    Alias                        Userled0
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         376
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          4
+    Width                        20
+    OnChanged                    ''
+end
