@@ -1,0 +1,1 @@
+The text document 29931_curve.txt has two columns. The left has units of Kelvin, the right Ohms.

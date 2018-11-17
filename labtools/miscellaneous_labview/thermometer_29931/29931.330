@@ -1,0 +1,25 @@
+Sensor Model:   GR-200A-30-CD-1.15A
+Serial Number:  29931
+Interpolation Method:   Lagrangian
+SetPoint Limit: 5.0      (Kelvin)
+Data Format:    4      (Log Ohms/Kelvin)
+Number of Breakpoints:   16
+
+No.   Units      Temperature (K)
+
+  1  1.25450         5.0
+  2  1.25665         4.9
+  3  1.26389         4.6
+  4  1.27239         4.3
+  5  1.28232         4.0
+  6  1.29816         3.6
+  7  1.31788         3.2
+  8  1.33611         2.9
+  9  1.35802         2.6
+ 10  1.39461         2.2
+ 11  1.43041         1.9
+ 12  1.45974         1.7
+ 13  1.47634         1.6
+ 14  1.49463         1.5
+ 15  1.53847         1.3
+ 16  1.56351         1.2
