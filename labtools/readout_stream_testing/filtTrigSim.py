@@ -289,7 +289,7 @@ if __name__=='__main__':
     #phaseSnapFile = '/mnt/data0/Darkness/20180816/phasesnaps/112_opt_filt_phase/snap_112_resID70011_20180817-130001.npz'
     #phaseSnapFile = '/mnt/data0/Darkness/20180816/phasesnaps/112/snap_112_resID70011_20180817-124330.npz'
     #phaseSnapFile = '/mnt/data0/Darkness/20180820/phasesnaps/snap_112_resID70011_20180820-181056.npz'
-    phaseSnapFile = '/mnt/data0/BF/20180913/phasesnaps/OneLaser_unity/snap_112_resID70424_20180913-162348.npz'
+    phaseSnapFile = '/mnt/data0/BF/20180913/phasesnaps/Optimal_980/snap_112_resID70424_20180913-182338.npz'
     #phaseSnapFile = '/mnt/data0/Darkness/20180816/phasesnaps/112/snap_112_resID70002_20180817-123937.npz' #unity filtered stream
     #firCoeffFile = '/mnt/data0/SDR/Projects/Filters/matched50_15.0us.txt'
     firCoeffFile = '/mnt/data0/SDR/Projects/Filters/unity50.txt'
@@ -302,13 +302,13 @@ if __name__=='__main__':
     q=1./Q
     print 'Kf',f,'Kq',q
 
-    nNegDeriv = 5
+    nNegDeriv = 10
     nPosDeriv = 2
     negDerivLenience = 1
     deadtime = 10
     sigThresh = 5.3
 
-    nBinsPhaseHist = 100
+    nBinsPhaseHist = 150
 
     phaseStreamDict = np.load(phaseSnapFile)
     phaseStream = 180/np.pi*phaseStreamDict[phaseStreamDict.keys()[0]]
